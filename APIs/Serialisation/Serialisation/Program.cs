@@ -9,7 +9,8 @@ public class Program
     static void Main(string[] args)
     {
         Trainee scot = new Trainee() { FirstName = "Scot", LastName = "Morrison", SpartaNo = 007 };
-        _serialiser = new XMLSerialiser();
+        _serialiser = new JSONSerialiser();
+        //_serialiser = new XMLSerialiser();
         //_serialiser.SerialiseToFile<Trainee>($"{_path}/BinaryScot.bin", scot);
         //var scot = _serialiser.DeserialiseFromFile<Trainee>($"{_path}/BinaryScot.bin");
 
@@ -24,6 +25,6 @@ public class Program
         eng134.AddTrainee(new Trainee() { FirstName = "Ikra", LastName = "Dahir", SpartaNo = 10 });
         eng134.AddTrainee(new Trainee() { FirstName = "Medhi", LastName = "Hamdi", SpartaNo = 5 });
 
-        _serialiser.SerialiseToFile<Course>($"{_path}/XMLCourse.xml", eng134);
+        _serialiser.SerialiseToFile<Course>($"{_path}/JSONCourse.json", eng134);
     }
 }
