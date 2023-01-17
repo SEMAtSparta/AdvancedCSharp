@@ -1,0 +1,15 @@
+D:\dev\SpartaGlobal\AdvancedCSharp\APIs\Serialisation\Serialisation\bin\Debug\net6.0\Serialisation.exe
+D:\dev\SpartaGlobal\AdvancedCSharp\APIs\Serialisation\Serialisation\bin\Debug\net6.0\Serialisation.deps.json
+D:\dev\SpartaGlobal\AdvancedCSharp\APIs\Serialisation\Serialisation\bin\Debug\net6.0\Serialisation.runtimeconfig.json
+D:\dev\SpartaGlobal\AdvancedCSharp\APIs\Serialisation\Serialisation\bin\Debug\net6.0\Serialisation.dll
+D:\dev\SpartaGlobal\AdvancedCSharp\APIs\Serialisation\Serialisation\bin\Debug\net6.0\Serialisation.pdb
+D:\dev\SpartaGlobal\AdvancedCSharp\APIs\Serialisation\Serialisation\obj\Debug\net6.0\Serialisation.csproj.AssemblyReference.cache
+D:\dev\SpartaGlobal\AdvancedCSharp\APIs\Serialisation\Serialisation\obj\Debug\net6.0\Serialisation.GeneratedMSBuildEditorConfig.editorconfig
+D:\dev\SpartaGlobal\AdvancedCSharp\APIs\Serialisation\Serialisation\obj\Debug\net6.0\Serialisation.AssemblyInfoInputs.cache
+D:\dev\SpartaGlobal\AdvancedCSharp\APIs\Serialisation\Serialisation\obj\Debug\net6.0\Serialisation.AssemblyInfo.cs
+D:\dev\SpartaGlobal\AdvancedCSharp\APIs\Serialisation\Serialisation\obj\Debug\net6.0\Serialisation.csproj.CoreCompileInputs.cache
+D:\dev\SpartaGlobal\AdvancedCSharp\APIs\Serialisation\Serialisation\obj\Debug\net6.0\Serialisation.dll
+D:\dev\SpartaGlobal\AdvancedCSharp\APIs\Serialisation\Serialisation\obj\Debug\net6.0\refint\Serialisation.dll
+D:\dev\SpartaGlobal\AdvancedCSharp\APIs\Serialisation\Serialisation\obj\Debug\net6.0\Serialisation.pdb
+D:\dev\SpartaGlobal\AdvancedCSharp\APIs\Serialisation\Serialisation\obj\Debug\net6.0\Serialisation.genruntimeconfig.cache
+D:\dev\SpartaGlobal\AdvancedCSharp\APIs\Serialisation\Serialisation\obj\Debug\net6.0\ref\Serialisation.dll
