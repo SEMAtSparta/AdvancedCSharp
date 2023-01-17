@@ -8,22 +8,22 @@ public class Program
     private static ISerialise _serialiser;
     static void Main(string[] args)
     {
-        //Trainee scot = new Trainee() { FirstName = "Scot", LastName = "Morrison", SpartaNo = 007 };
-        _serialiser = new BinarySerialiser();
+        Trainee scot = new Trainee() { FirstName = "Scot", LastName = "Morrison", SpartaNo = 007 };
+        _serialiser = new XMLSerialiser();
         //_serialiser.SerialiseToFile<Trainee>($"{_path}/BinaryScot.bin", scot);
-        var scot = _serialiser.DeserialiseFromFile<Trainee>($"{_path}/BinaryScot.bin");
-    }
-}
+        //var scot = _serialiser.DeserialiseFromFile<Trainee>($"{_path}/BinaryScot.bin");
 
-[Serializable]
-public class Trainee
-{
-    public string? FirstName { get; init; }
-    public string? LastName { get; init; }
-    public int? SpartaNo { get; init; }
-    public string FullName => $"{FirstName} {LastName}";
-    public override string ToString()
-    {
-        return $"{SpartaNo} - {FullName}";
+        Course eng134 = new Course()
+        {
+            Title = "Engineering 134",
+            Subject = "C# SDET",
+            StartDate = new DateTime(2022, 11, 28)
+        };
+
+        eng134.AddTrainee(scot);
+        eng134.AddTrainee(new Trainee() { FirstName = "Ikra", LastName = "Dahir", SpartaNo = 10 });
+        eng134.AddTrainee(new Trainee() { FirstName = "Medhi", LastName = "Hamdi", SpartaNo = 5 });
+
+        _serialiser.SerialiseToFile<Course>($"{_path}/XMLCourse.xml", eng134);
     }
 }
